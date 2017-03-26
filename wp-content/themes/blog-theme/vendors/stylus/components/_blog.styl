@@ -1,0 +1,183 @@
+.blog-posts-title
+  width: 100%
+  background-color: #000
+  text-transform uppercase
+  font-weight 700
+  font-size 16px
+  color #ffffff
+  padding: 11px
+  position: relative
+  margin-bottom: 40px
+
+  &:after
+    content ""
+    width 0;
+    height 0;
+    border-style solid;
+    border-width 60px 8px 0 8px;
+    border-color #000000 transparent transparent transparent;
+    position absolute
+    transform rotate(-45deg)
+    top 65%
+    left 7%
+
+.post-date
+  margin-right: 10px
+  background-color #c3c3c3
+  display: inline-flex
+  flex-direction column
+  justify-content center
+  align-items center
+  align-content center
+  text-transform uppercase
+  height: 77px
+  width: 77px
+  position relative
+  &:after
+    content: ''
+    width: 69px
+    height: 69px
+    background: transparent
+    border: 1px solid rgba(255, 255, 255, 0.44)
+    position: absolute
+    top 4px
+    left 4px
+    z-index 3
+
+  h2
+  h3
+    margin: 0
+
+  h2
+    font-size: 36px;
+    font-weight: 700;
+
+  h3
+    font-size: 14px;
+    font-weight: 300;
+
+.post-title
+  margin: 0
+
+  a
+    margin: 0
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222
+
+    &:hover
+      text-decoration none
+
+.post-content
+  padding-top: 15px
+  padding-left: 91px
+  color #a5a4a4
+  font 400 14px Arial
+  line-height: 24px;
+  p
+    display: block
+
+  .more-link
+    margin: 0
+    font 300 14px/14px Oswald
+    display: inline-block
+    color #2c2c2b
+    position: relative
+    text-transform uppercase
+    padding 9px 40px 10px 10px
+    border none
+    background-color #ffd500
+
+    &:hover
+      color #2c2c2b
+      text-decoration none
+
+    &:before
+      content: ''
+      height: 14px
+      width: 10px
+      position: absolute
+      right 13px
+      top 10px
+      background-image: url('http://dev-tokasrskyi.pantheonsite.io/wp-content/uploads/2017/03/layer-16.png')
+      background-repeat: no-repeat
+      z-index 3
+
+    &:after
+      content: ''
+      z-index 2
+      height: 22px
+      width: 22px
+      position: absolute
+      top 6px
+      right 10px
+      background-size: 2px 2px
+      background-image: (linear-gradient(-45deg, #fff1a7 46%, #fff1a7 49%, #fff1a7 51%, transparent 55%))
+
+.post
+  padding-bottom 15px
+  border-bottom 5px solid #e7e7e7
+  margin-bottom: 50px
+
+  &-meta
+    position relative
+    bottom -15px
+
+    .cat-links
+    .comments-link
+      a
+        font 700 12px Arial
+        padding: 8px 8px 8px 28px
+
+    .cat-links
+      a
+        background no-repeat url('http://dev-tokasrskyi.pantheonsite.io/wp-content/uploads/2017/03/layer-18.png') 8px 48% #ecebeb
+    .comments-link
+      a
+        background no-repeat url('http://dev-tokasrskyi.pantheonsite.io/wp-content/uploads/2017/03/layer-17.png') 8px 50% #ecebeb
+
+.slider
+  margin-bottom: 5%
+  background-size: 6px 6px
+  background-image: (linear-gradient(-45deg, transparent 46%, #a6a6a4 49%, #a6a6a4 51%, transparent 55%))
+  padding 7px
+
+.slide
+
+  margin: 0
+  img
+    position: relative
+    width: 100%
+
+
+.slide-content
+  background-color: #222222
+  position: relative
+  padding: 16px
+  color: #ececec;
+  h2
+    margin: 0 0 10px 0
+    font-size: 22px;
+    font-weight: 400;
+  p
+    margin: 0
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 14px;
+    &:after
+      content ""
+      width 0;
+      height 0;
+      border-style solid;
+      border-width 100px 15px 15px;
+      border-color #000000 transparent transparent transparent;
+      position absolute
+      transform rotate(-130deg)
+      top -80px
+      left 10%
+      z-index -1
+
+
+
+
+  
